@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentScheduleGenerator", "PaymentScheduleGenerator\PaymentScheduleGenerator.csproj", "{46BE095D-D3BE-4267-A1B2-435D80BBF97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentScheduleGenerator.Tests", "PaymentScheduleGenerator.Tests\PaymentScheduleGenerator.Tests.csproj", "{2B533CEB-2CD2-4085-A6FD-0078B3D56957}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46BE095D-D3BE-4267-A1B2-435D80BBF97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BE095D-D3BE-4267-A1B2-435D80BBF97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BE095D-D3BE-4267-A1B2-435D80BBF97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BE095D-D3BE-4267-A1B2-435D80BBF97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B533CEB-2CD2-4085-A6FD-0078B3D56957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B533CEB-2CD2-4085-A6FD-0078B3D56957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B533CEB-2CD2-4085-A6FD-0078B3D56957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B533CEB-2CD2-4085-A6FD-0078B3D56957}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C2BB73E-4553-4DFF-A848-10C2C677C183}
+	EndGlobalSection
+EndGlobal

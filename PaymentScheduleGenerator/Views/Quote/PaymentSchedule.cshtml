@@ -1,0 +1,33 @@
+﻿@model PaymentScheduleGenerator.Domain.PaymentSchedule
+
+<h1>Quote for your new vehicle</h1>
+
+<h2>Summary</h2>
+<dl class="row">
+    <dt class="col-sm-3">Vehicle Price</dt>
+    <dd class="col-sm-9">@Model.VehiclePrice</dd>
+
+    <dt class="col-sm-3">Deposit</dt>
+    <dd class="col-sm-9">@Model.Deposit</dd>
+</dl>
+
+<h2>Payment Schedule</h2>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Due Date</th>
+        <th>Amount</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var payment in Model.Payments) {
+        <tr>
+            <td>@payment.DueDate.ToString("dd MMM yyyy", null)</td>
+            <td>@payment.Amount</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Index" asp-controller="Quote">Start again</a>
